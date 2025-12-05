@@ -1,0 +1,34 @@
+extends _layout.jade
+
+- var bodyClass = 'contact'
+
+block title
+  | Contact | Jorge Pedret
+
+block header
+  h1
+    a(href="/") Jorge Pedret
+
+block content
+  article.page-content
+    #wufoo-q1f6tqq60q3gk51
+      | Fill out my online form.
+    #wuf-adv(style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block")
+      | Online contact and registration forms from Wufoo.
+    script(type="text/javascript")
+      | var q1f6tqq60q3gk51;(function(d, t) {
+      | var s = d.createElement(t), options = {
+      | 'userName':'jorgepedret',
+      | 'formHash':'q1f6tqq60q3gk51',
+      | 'autoResize':true,
+      | 'height':'497',
+      | 'async':true,
+      | 'host':'wufoo.com',
+      | 'header':'show',
+      | 'ssl':true};
+      | s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+      | s.onload = s.onreadystatechange = function() {
+      | var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+      | try { q1f6tqq60q3gk51 = new WufooForm();q1f6tqq60q3gk51.initialize(options);q1f6tqq60q3gk51.display(); } catch (e) {}};
+      | var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+      | })(document, 'script');

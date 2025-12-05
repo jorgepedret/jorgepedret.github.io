@@ -1,0 +1,133 @@
+extends ../_layout.jade
+
+- var bodyClass = 'oracle'
+
+block head
+  // keep page specific stylesheet
+  link(rel="stylesheet", type="text/css", href="../css/express.css")
+
+block title
+  | Express Website | Get a good looking Website in 2 days
+  block header
+    .header-available
+      a.status.status-available(href="/contact") Accepting new clients
+    h1
+      a(href="/express-website") Express Website
+    p.lead
+      | Great looking websites for 
+      strong individuals
+      |  and 
+      strong small businesses
+      | .
+      br
+      | Get a published website for $500 in two days.
+
+  block content
+    article.page-content
+      .express-body
+        .includes
+          p
+            strong For $500 you get, in just 2 days:
+          ul.list-unstyled
+            li
+              i.icon-checkmark
+              |  Your own 
+              strong hosting
+              |  and 
+              strong domain name
+              |  for 1 year ($170/year)
+            li
+              i.icon-checkmark
+              |  Custom 
+              strong email addresses
+              |  with your own domain
+            li
+              i.icon-checkmark
+              |  A beautiful and professional looking 
+              strong template
+              |  ($50)
+            li
+              i.icon-checkmark
+              |  Simple 
+              strong design
+              |  work and 
+              strong content writing
+              |  coaching
+            li
+              i.icon-checkmark
+              |  One-on-one 
+              strong training
+              |  on managing your website
+            li
+              i.icon-checkmark
+              |  A good looking 
+              strong website
+              |  that you are proud of
+          .text-center
+            a.btn.btn-success(href="/contact") I’m interested!
+            br
+            br
+            | Keep scrolling down to learn more…
+      h2#hi Hi!
+      p My name is Jorge Pedret. I can help you design, code and publish your own website on the Internet in just 2 days. We’ll work together and focus on what’s important for you. By the end, you’ll have a 
+        strong fully working website
+        |  that you can update yourself, advertise on social media and engage your visitors directly.
+      p Want to know more?
+      ul.list-inline
+        li(style="text-align: center;")
+          a.btn.btn-success.btn-sm(href="#process") Process
+        li(style="text-align: center;")
+          a.btn.btn-success.btn-sm(href="#included") Package
+        li(style="text-align: center;")
+          a.btn.btn-success.btn-sm(href="#questions") Questions
+        li(style="text-align: center;")
+          a.btn.btn-success.btn-sm(href="#referrals") Referrals
+      .process
+        h2#process My process
+        p.process-intro Today’s technology allows developers to create a website with very little effort and very little investment. I love meeting with awesome people, capturing their idea and expressing it as a website that is useful to them and to their target audience. Overall, I like having fun while I work.
+        h3 1. Review your project
+        p Defining the goals is key to the start of any project. After a Skype chat, we’ll meet in person to discuss your project and what you want to achieve with your website. The idea here is to get a sense of what you’re looking for and of what I can offer. We’ll also get to talk about the audience that you’re looking to engage and the language that we can potentially use.
+        h3 2. Choose a template
+        p This is the funnest parts of creating a website, as you get to see a broad selection of professionally designed templates and choose one that fits best for your specific goals. I suggest templates from WooThemes or ThemeForest, but we can consider any template that you suggest.
+        h3 3. Choose a domain
+        p We’ll look for a domain name that is available and reserve it for a full year. The domain name is generally included in the hosting package. The idea is to choose a domain that’s simple and memorable, easy to spell to your future visitors over the phone.
+        h3 4. Compose the content
+        p The content of your website is the most important part. It’s what keeps your visitors coming back and what makes your website a powerful tool. The content is the backbone of your website and we’ll use it to structure the menu and the different pages.
+        h3 5. Publish website
+        p Once your Website is ready, we’ll open the doors so anybody can come in and start using it. Publishing a website can be frightening for some, but I’ll give you the tools and support to feel comfortable, happy, with going live.
+        h3 6. Looking forward
+        p Once published, I’ll hand you the keys to your new website. You’ll have a document with the credentials, the files and the information necessary for any other development team to work on it. All the bills are paid for a full year and payment is automated with the hosting company.
+        p Now it’s time for you to start publishing those blog posts that you’ve been wanting to write, promoting your new website on social media networks and playing around with the different things you can do with your new website.
+      hr
+      p.text-center Ready to chat?
+        br
+        br
+        a.btn.btn-lg.btn-primary(href="/contact") Get in touch with Jorge
+      hr
+      .process
+        h2#included What’s included?
+        h3 A Good Looking Template!
+        p Choose from a wide variety of templates that are available on the Internet. They could range from $0 to $100 depending on the quality and complexity of the template. WooThemes and ThemeForest are popular for carrying excelent quality templates.
+        h3 Domain name for 1 year
+        p If you don’t have a domain already, we’ll brainstorm ideas for a memorable and simple to spell domain name. We’ll use a tool like Domai.nr to check if the domain is available and purchasing options.
+        h3 Hosting plan for 1 year
+        p We’ll find a hosting plan that fits your needs, for your pocket, and for the volume of visitors that you’ll be expecting. Before making any decisions, I’ll show you the options and the price ranges directly from the hosting company’s website.
+        h3 Custom Email Address
+        p Stay professional by creating your own email addresses with your domain name. Depending on your needs, it can be integrated into your existing email address or keep it separate for more control.
+        h3 Simple visual design
+        p We’ll take advantage of the template for the heavy design elements. If there are any elements that need to be customized, or photos that need to be finely tuned, I have the tools to make it look pretty.
+        h3 Content writing coaching
+        p Although you’ll be doing most of the writing, I’ll help you organize it, shorten it and package it up to meet your audience’s expectations.
+        h3 One-day express training
+        p Your new website will be fully equiped for you to go in the control panel and make changes yourself. Before publishing your website, I’ll provide you with written and in-person condensed, easy-to-follow instructions for navigating the different parts that make your website possible. As well as what to do in case of an emergency, what information to give to another development team, username and passwords, etc.
+        h3 Published website
+        p By the end of the project, you’ll have a fully functional, good looking, ready-to-go-live Website. Something that you’ll be proud to share with your friends, colleagues and family. I make this goal a priority. And to make it happen, we use our time wisely and focus only on what’s important.
+      hr
+      p.text-center Interested in working together?
+        br
+        br
+        a.btn.btn-lg.btn-primary(href="/contact") Message Jorge
+      hr
+      .includes
+        h3#referrals $100 for every paid referral
+        p I’m giving $100 to anyone who refers a client that signs up for a 2 day Express Website project. Take your best friend out for a nice dinner!
