@@ -6,7 +6,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     title
       block title
-        | Jorge Pedret | Vancouver Island Front-end Engineer
+        | Jorge Pedret | Vancouver Island Full-Stack Developer
     link(rel="stylesheet", href="/css/style.css")
     block head
   body(class="page-" + current.source)
@@ -18,9 +18,9 @@ html(lang="en")
         header.page-intro
           block header
 
-        // main content injected by pages
         block content
           !=yield
+        
         hr
         ul.list-unstyled.list-cozy.footer
           li
